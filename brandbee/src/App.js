@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Navbar />
       {/* <DroupDown/> */}
-      <DroupDownImage/>
+      {/* <DroupDownImage/> */}
 
       <MainRouter />
       <Footer />     
