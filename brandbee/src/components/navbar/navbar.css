@@ -1,0 +1,273 @@
+
+
+
+
+
+.nev{
+  height: 102px;
+  width: 100%;
+  display: flex;
+  top: 0;
+    /* padding: 10px 60px; */
+    /* border :1px solid green; */
+    justify-content: center;
+    /* flex: initial; */
+    /* flex-direction: row; */
+    
+    justify-content: center;
+    position: fixed;
+    /* display: block; */
+    align-items: center;
+    background-color: white;
+    /* justify-content: space-between; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 200;
+}
+
+
+.nav_logo{
+    height:  100%;
+    /* width: 100%; */
+    /* border: 1px solid black; */
+    /* text-align: center; */
+    /* margin-top: 7px; */
+    /* margin-left: -50px; */
+    width: 17%;
+}
+
+.nav_logo img{
+    height: auto;
+    width: auto; 
+  margin: 5%;
+  padding-left: 10%;
+}
+
+.nav_section{
+  /* border: 1px solid red; */
+  height: 102px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 75%;
+}
+.section {
+    display: flex;
+    /* height: 30px; */
+    /* width: 85%; */
+    align-items: center;
+    justify-content: space-between;
+    /* margin-right: 30px; */
+    font-family: "Kanit", sans-serif;
+    font-size: 2.7vh;
+    font-weight: bold;
+    /* margin-left: 90px; */
+    cursor: pointer;
+    /* display: block; */
+    margin: 2%;
+    /* border: 1px solid red; */
+  }
+  
+ 
+  
+.section li{
+    list-style: none;
+    /* border: 1px solid black; */
+    padding: 0 20px;
+    position: relative;
+    /* display: block; */
+      
+}
+
+.nav-drawer{
+  width: 13%;
+  height: 100%;
+  /* border: 1px solid rgb(17, 228, 52); */
+  height: 102px;
+  align-items: center;
+  display: flex;
+  padding-left: 5%;
+  justify-content: center;
+}
+.nav-btn2{
+    height: 40px;
+    background-color: rgb(8, 8, 8);
+       color: white;
+       
+}
+.section li {
+    -webkit-transition-delay: 2.4s;
+    transition-delay: 2.4s;
+}
+.section li{
+    color: #000;
+    /* display: block; */   
+}
+
+.section li p{
+  /* color: yellow; */
+  /* display: block; */   
+}
+
+
+
+.section2 {
+  position: absolute;
+  top: -240%;
+  width: 100%;
+  height: 39%;
+  left: 0px;
+}
+
+
+.section3 {
+  position: absolute;
+  top: -240%;
+  width: 100%;
+  height: 39%;
+  left: 0px;
+}
+
+
+
+
+.mobile i{
+ color: rgb(243, 12, 12);
+}
+
+@media screen and (max-width: 1326px){
+
+  .nev{
+    height: 100px;
+    width: 100%;
+    display: flex;
+  }
+  .nav_logo img{
+    height: 80%;
+    width: 80%; 
+  margin: 5%;
+  padding-left: 10%;
+}
+
+.section {
+  display: flex;
+  /* height: 30px; */
+  align-items: center;
+  justify-content: space-between;
+  /* margin-right: 30px; */
+  font-family: "Kanit", sans-serif;
+  font-size: 1.4cap;
+  font-weight: bold;
+  /* margin-left: 90px; */
+  cursor: pointer;
+  margin: 1%;
+}
+
+
+}
+
+@media screen and (max-width: 767px) {
+    
+  .nev{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav_logo {
+    /* margin-left: 10px; */
+    margin: 3%;
+    /* margin-top: 2%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav_logo img{
+    height: 80%;
+    width: 80%; 
+   
+ 
+}
+
+  
+  
+  .nav_section {
+      display: none;
+    }
+  
+    .section2,
+    .section3 {
+      top: -240%;
+    }
+  
+   
+  }
+  
+  @media screen and (max-width: 480px) {
+    .nev {
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      position: fixed; /* Add this line to make the navbar fixed at the top */
+      top: 0; /* Add this line to position the navbar at the top of the page */
+      width: 100%;
+    }
+
+    .nav_logo {
+      
+    /* border: 1px solid red; */
+    width: 20%;
+    height: auto;
+    }
+    .logo {
+      height: 40px; /* Set the desired height for the logo in smaller screens */
+    }
+  
+    .logo img {
+      height: 80%; /* Ensure the image takes the full height of the logo container */
+    }
+  
+    .logo-text {
+      display: none; /* Hide the logo text in smaller screens if needed */
+    }
+
+    .section2,
+    .section3 {
+      top: -240%;
+      border: 1px solid red;
+    }
+  }
+
+/* @media screen and (max-width:769px){
+    .section{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 90px;
+        right: 0px;
+        width: 300px;
+        height: 100vh;
+        background: rgb(235, 14, 14);
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 40px 0 0 10px;
+    }
+
+    .section li{
+        margin-bottom: 25px;
+    } */
+
+
+    /* .mobile{
+        display:block ;
+    } */
+
+    /* .mobile i {
+        font-size: 24px;
+        cursor: pointer;
+    }
+} */
+
+

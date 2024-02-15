@@ -1,0 +1,194 @@
+
+   .large-container {
+    background: lightgray;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 400vh; 
+  }
+  
+  
+  .scrolling-background-text {
+    font-size: 16px;
+    background: lightgray;
+    padding: 20px;
+    transition: font-size 0.3s ease; 
+  }
+  
+  .centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+
+
+  .feature-btn {
+    /* border: 1px solid rgb(49, 4, 4); */
+    height: 46vh;
+    margin-left: 50px;
+    width: 90%;
+    /* background: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-btn2 {
+    /* border: 1px solid red; */
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 50%;
+    height: 220px;
+    width: 220px;
+    background: rgb(12, 2, 2);
+    display: flex;
+    justify-content: center; /* Center the text horizontally */
+    align-items: center; /* Center the text vertically */
+    color: rgb(255, 252, 252);
+    gap: 5px;
+    text-align: center; /* Center the text inside the circle */
+    transition: transform 0.2s ease;
+}
+
+
+.future-main1{
+  height: 400vh;
+  width: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 1%; */
+}
+
+.future-main2{
+  height: 380vh;
+  width: 95%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.future-main2::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: inherit; /* Inherit the background from .large-container */
+  z-index: -1; /* Move the pseudo-element behind the content */
+}
+.future-box-image1{
+  height: 360vh;
+  width: 80%;
+  /* border: 1px solid rgb(10, 9, 9); */
+ margin: 1%;
+ /* padding-bottom: 18%; */
+ 
+}
+
+.future-image1{
+  height: 115vh;
+  width: 95%;
+  /* border: 1px solid rgb(243, 5, 5); */
+  margin: 2%;
+  padding-bottom: 18%;
+  
+}
+
+.future-image1 img{
+  width: 90%;
+  height: 100vh;
+  border-radius: 3%;
+}
+
+.future-image2{
+  height: 115vh;
+  width: 95%;
+  /* border: 1px solid rgb(243, 5, 5); */
+  margin: 2%;
+}
+
+.future-image2 img{
+  width: 90%;
+  height: 100vh;
+  border-radius: 3%;
+}
+
+.future-image3{
+  height: 115vh;
+  width: 95%;
+  /* border: 1px solid rgb(243, 5, 5); */
+  margin: 2%;
+}
+
+.future-image3 img{
+  width: 90%;
+  height: 100vh;
+  border-radius: 3%;
+}
+
+
+
+.future-box-image2{
+  height: 360vh;
+  width: 80%;
+  /* border: 1px solid rgb(10, 9, 9); */
+ margin: 1%;
+}
+
+
+.future-side-image1{
+  height: 115vh;
+  width: 95%;
+  /* border: 1px solid rgb(243, 5, 5); */
+  margin: 2%;
+  /* margin-left: 8h; */
+}
+
+.future-side-image1 img{
+  width: 90%;
+  height: 100vh;
+  border-radius: 3%;
+  justify-items: right;
+  
+}
+
+.future-side-image2{
+  height: 115vh;
+  width: 95%;
+  /* border: 1px solid rgb(243, 5, 5); */
+  margin: 2%;
+}
+
+.future-side-image2 img{
+  width: 90%;
+  height: 100vh;
+  border-radius: 3%;
+}
+.future-side-image3{
+  height: 115vh;
+  width: 95%;
+  /* border: 1px solid rgb(243, 5, 5); */
+  margin: 2%;
+}
+
+.future-side-image3 img{
+  width: 90%;
+  height: 100vh;
+  border-radius: 3%;
+}
+
+/* Add this to your existing CSS */
+.zoomable-image {
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Additional styles for the zoom effect */
+.zoomed {
+  transform: scale(1.2); /* Adjust the scale factor as needed */
+}

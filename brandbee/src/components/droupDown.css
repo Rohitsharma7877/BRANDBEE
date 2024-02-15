@@ -1,0 +1,276 @@
+
+.droup-main1{
+    height:50vh;
+    width: 150%;
+    margin-top:34%;
+    border-top: 4px solid #fdfd06 ;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid rgb(15, 15, 15); */
+    z-index: 2000;
+    opacity: 1;
+    pointer-events: auto;
+    transition: opacity 0.3s ease-in-out, pointer-events 0.3s ease-in-out;
+    
+    /* position: absolute; */
+ 
+}
+
+
+
+.droup-main2{
+    height: auto;
+    width: 150%;
+    /* border: 1px solid rgb(219, 8, 8); */
+    /* margin-top: 90px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.droup-box1{
+    height: auto;
+    width: 25%;
+    /* border: 1px solid green; */
+}
+
+.droup-box1-tags{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    padding-right: 30vh;
+    gap: 4px;
+    color: rgb(226, 6, 6);
+    font-size: 2.4vh;
+    font-weight: bold;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+.droup-box1-tags p{
+    font-size: 2.8vh;
+    font-weight: bold;
+    color: #000;
+}
+
+/* .droup-box1-tags h1{
+    font-size: 2.4vh;
+    font-weight: bold;
+    justify-content: center;
+    align-items:center;
+} */
+
+.droup-box1-list{
+    height: auto;
+    width: 100%;
+    gap: 3px;
+    /* color: #000; */
+    /* border: 1px solid red; */
+    padding-right: 3vh;
+}
+
+
+.droup-box1-list ul{
+    font-size: 2.4vh;
+    font-weight: bold;
+    color: #000;
+}
+
+.droup-box1-list ul li{
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+
+.droup-box1-list ul p {
+    /* border: 1px solid black; */
+    width: 10%;
+    margin-top: 2vh;
+    font-size: 3vh;
+    /* color: yellow; */
+}
+
+.droup-box1-list ul h1 {
+    /* border: 1px solid black; */
+    /* text-align: center; */
+    /* flex: 1; */
+    width: 100%;
+    text-align: left;
+    margin-top: 2vh;
+    line-height: 2;
+}
+
+.droup-box1-list ul button {
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+
+.droup-box2{
+    height: auto;
+    width: 25%;
+    /* border: 1px solid green; */
+}
+
+
+
+.droup-box2-list2{
+    height: auto;
+    width: 100%;
+    margin-top: 3vh;
+    gap: 3px;
+    /* border: 1px solid red; */
+    padding-right: 10vh;
+
+    
+}
+
+
+.droup-box2-list2 ul{
+    font-size: 2.4vh;
+    font-weight: bold;
+    /* border: 1px solid red; */
+}
+
+.droup-box2-list2 ul li{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.droup-box2-list2 ul p {
+    /* border: 1px solid black; */
+    width: 10%;
+    margin-top: 2vh;
+    font-size: 3vh;
+}
+
+.droup-box2-list2 ul h1 {
+    width: 100%;
+    /* border: 1px solid black; */
+    /* text-align: center; */
+    width: 100%;
+    text-align: left;
+    margin-top: 2vh;
+    line-height: 2;
+}
+
+.droup-box2-list ul button {
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+
+.droup-box3{
+    height: auto;
+    width: 25%;
+    /* border: 1px solid green; */
+}
+
+.droup-box3-tags3{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    padding-right: 30vh;
+    gap: 4px;
+    color: rgb(226, 6, 6);
+    font-size: 2.4vh;
+    font-weight: bold;
+    justify-content: center;
+    align-items:center;
+}
+
+.droup-box3-tags3 p{
+    font-size: 2.8vh;
+    font-weight: bold;
+    color: #000;
+}
+
+.droup-box3-list3{
+    height: auto;
+    width: 100%;
+    gap: 3px;
+    /* color: #000; */
+    /* border: 1px solid red; */
+    padding-right: 3vh;
+}
+
+
+.droup-box3-list3 ul{
+    font-size: 2.4vh;
+    font-weight: bold;
+    color: #000;
+}
+
+.droup-box3-list3 ul li{
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+
+.droup-box3-list3 ul p {
+    /* border: 1px solid black; */
+    width: 10%;
+    margin-top: 2vh;
+    font-size: 3vh;
+}
+
+.droup-box3-list3 ul h1 {
+    /* border: 1px solid black; */
+    width: 100%;
+    text-align: left;
+    margin-top: 2vh;
+    line-height: 2;
+
+}
+.droup-box3-list ul button {
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
+.droup-box4{
+    height: auto;
+    width: 25%;
+    /* border: 1px solid green; */
+}
+
+.droup-box4-list4{
+    height: auto;
+    width: 100%;
+    gap: 3px;
+    /* color: #000; */
+    /* border: 1px solid red; */
+    padding-right: 3vh;
+}
+
+
+.droup-box4-list4 ul{
+    font-size: 2.4vh;
+    font-weight: bold;
+}
+
+.droup-box4-list4 ul li{
+    display: flex;
+    align-items: center;
+}
+
+.droup-box4-list4 ul p {
+    /* border: 1px solid black; */
+    width: 10%;
+    margin-top: 2vh;
+    font-size: 3vh;
+}
+
+.droup-box4-list4 ul h1 {
+    /* border: 1px solid black; */
+    text-align: center;
+    width: 100%;
+    text-align: left;
+    margin-top: 2vh;
+    line-height: 2;
+}
+.droup-box4-list ul button {
+    margin-right: 10px; /* Adjust the margin as needed */
+}

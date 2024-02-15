@@ -1,0 +1,255 @@
+
+.banner{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner2{
+    height: 170vh;
+    width: 90%;
+    margin: 4% 2% 0 6%;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    /* gap: 10px; */
+}
+
+
+/* .banner2 > div {
+   
+} */
+
+.banner-imge{
+    /* border: 1px solid blue;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+
+.banner-heading{
+    /* border: 1px solid blue;  */
+    /* display: flex; */
+
+    height: auto;
+    width: 100%;
+}
+
+.banner-phra{
+    /* border: 1px solid rgb(206, 13, 13);  */
+    height: 35vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+    font-size: 50px;
+    margin-top: 25px;
+    background: black;
+    color: white;
+    line-height: 55px;
+    /* text-overflow: clip; */
+    font-weight: bold; /* Set font weight to bold */
+    /* padding-top: 30px; */
+    text-align: left;
+}
+@keyframes moveRightToLeft {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+.banner-phra2{
+    /* border: 1px solid rgb(49, 4, 4); */
+    /* border-top: none;
+    border-bottom: none;
+    border-left: none; */
+    /* border-right: 1px solid gray; */
+    height: auto;
+    margin-top: 15%;
+    /* background: black; */
+    color: rgb(161, 155, 155);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 70%;
+    /* padding: 0 20px; */
+    margin-left: 25%;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.3;
+    animation: moveRightToLeft 10s ease-out;
+}
+
+.handscroll-btn {
+    /* border: 1px solid rgb(245, 242, 242); */
+    height: auto;
+    margin-left: 50px;
+    margin-top: 7%;
+    width: 45%;
+    /* background: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.handscroll-btn2 {
+    /* border: 1px solid red; */
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    color: #000;
+    background-color: white;
+    display: flex;
+    justify-content: center; /* Center the text horizontally */
+    align-items: center; /* Center the text vertically */
+    /* color: rgb(7, 7, 7); */
+    gap: 5px;
+    text-align: center; /* Center the text inside the circle */
+    transition: transform 0.2s ease;
+}
+
+.handscroll-btn2:hover {
+    transform: translateX(-5px); /* Move the button 5px to the left on hover */
+    animation: vibrate 0.3s ease infinite; /* Apply vibrating animation */
+}
+
+@keyframes vibrate {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-5px);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+    75% {
+        transform: translateX(-5px);
+    }
+}
+
+  
+
+
+ @media screen and (max-width: 1326px){
+    .banner2{
+        /* border: 1px solid red; */
+        margin-top: 20%;
+        height: 500vh;
+    }
+    
+    .banner-imge{
+        width: 70%;
+        /* border: 1px solid red; */
+       
+    }
+    .banner-imge img{
+        top: 0;
+        /* margin-top: -100%; */
+        /* border: 1px solid red; */
+    }
+
+    .banner-heading{
+        /* border: 1px solid red; */
+        margin-left: -20%;
+    }
+    .banner-phra{
+        width: 70%;
+        height: auto;
+        font-size: 12vh;
+        /* border: 1px solid red; */
+        margin: 3%;
+    }
+    .banner-phra2{
+        /* border: 1px solid red; */
+        width: 70%;
+        margin-top: 20%;
+    }
+    .handscroll-btn{
+        /* border: 1px solid red; */
+        margin-top: 7%;
+    }
+    
+ }
+@media screen and (max-width: 767px){
+    .banner2 {
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid red; */
+        height: auto;
+      }
+      
+      .banner-imge {
+        order: 1;
+    /* padding-top: 100%; */
+        width: 95%;
+        margin: 3%;
+        height: 110vh;
+        /* border: 1px solid red; */
+        display: flex;
+       align-items: flex-start;
+       
+      }
+
+      .banner-imge img {
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+        position: relative;
+        z-index: 200;
+      }
+      
+      .banner-heading {
+        order: 2;
+        padding: 20px; /* Adjust the padding as needed */
+      }
+      
+      .banner-phra {
+        order: 1;
+        /* border: 1px solid red; */
+        margin-left: 20%;
+        width: 70%;
+        font-size: 15vh;
+      }
+      
+      .banner-phra2 {
+        /* border: 1px solid red; */
+        /* margin-left: 20%; */
+        width: 90%;
+        margin-top: 50%;
+        /* text-align: left; */
+        /* padding-right: 40%; */
+        order: 2; /* Set the order based on your desired layout */
+      }
+      .banner-phra2 p{
+        /* border: 1px solid red; */
+        width: 100%;
+      }
+      
+      .handscroll-btn {
+        order: 3; /* Set the order based on your desired layout */
+      }
+      
+     
+}
+ @media screen and (max-width: 480px){
+
+    .banner-phra2{
+        margin-top: 70%;
+        /* border: 1px solid red; */
+    }
+ }

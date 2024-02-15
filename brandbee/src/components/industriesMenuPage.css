@@ -1,0 +1,218 @@
+/* .Industriesmenu-main1 {
+    height: 200vh;
+    width: 100%;
+    padding-top: 1.5%;
+    margin-top: 6.3%;
+    border: 1px solid rgb(10, 10, 10);
+   
+}
+
+.Industriesmenu-main2 {
+    height: 180vh;
+    width: 80%;
+    border: 1px solid rgb(255, 0, 0);
+    padding: 1% 8% 10% 8%;
+    box-sizing: border-box;
+    margin: 6.5% auto;
+} */
+
+
+.Industriesmenu-main1 {
+    height: auto;
+    width: 100%;
+    padding-top: 0.1%;
+    margin-top: 6.3%;
+    /* border: 1px solid rgb(10, 10, 10); */
+   
+}
+
+.Industriesmenu-main2 {
+    height: auto;
+    width: 100%;
+    /* border: 1px solid rgb(255, 0, 0); */
+    /* padding: 1% 8% 10% 8%; */
+    box-sizing: border-box;
+    margin: 0.1% auto;
+}
+.Industriesmenu-box1{
+    height: 56vh;
+    width: 100%;
+    /* border: 1px solid rgb(2, 2, 2); */
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-image:url("assets/BEAUTYCARE.png") ; */
+    background-repeat: no-repeat;
+}
+
+
+
+.Industriesmenu-box2{
+    height: 135vh;
+    width: 100%;
+    /* border: 1px solid rgb(0, 0, 0); */
+    padding-top: 1.5%;
+}
+.Industriesmenu-details{
+    height: 115vh;
+    width: 85%;
+    /* border: 1px solid rgb(255, 0, 0); */
+    /* padding: 1% 8% 10% 8%; */
+    box-sizing: border-box;
+    margin: 5.5% auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.Industriesmenu-image{
+    height: 115vh;
+    width: 70%;
+    /* border: 1px solid rgb(255, 0, 0); */
+}
+.Industriesmenu-img{
+    height: 95vh;
+    width: 100%;
+    /* border: 1px solid rgb(0, 0, 0); */
+}
+.Industriesmenu-img img{
+    height: 100%;
+    width: 100%;
+}
+.Industriesmenu-image-details{
+    height: 115vh;
+    width: 100%;
+    /* border: 1px solid rgb(255, 0, 0); */
+
+}
+.Industriesmenu-image-details-title{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid rgb(0, 0, 0); */
+}
+.Industriesmenu-image-details-title h1{
+    height: 100%;
+    width: 90%;
+    font-size: 5vh;
+    font-weight: bold;
+    color: #000;
+    text-align: left;
+    overflow: auto;
+    margin: 2%;
+    /* border: 1px solid rgb(0, 0, 0); */
+}
+.Industriesmenu-image-details-pargh{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid rgb(0, 0, 0); */
+}
+.Industriesmenu-image-details-pargh p{
+    height: 100%;
+    width: 82%;
+    font-size: 2.5vh;
+    font-weight: 500;
+    color: gray;
+    text-align: left;
+    overflow: auto;
+    padding-top: 2%;
+    margin: 2%;
+    /* border: 1px solid rgb(0, 0, 0); */
+}
+.Industriesmenu-box3{
+    height: 90vh;
+    width: 99%;
+    /* border: 1px solid rgb(0, 0, 0); */
+    padding-top: 1.5%;
+}
+.Industriesmenu-offer{
+    height: 90vh;
+    width: 70%;
+    /* border: 1px solid rgb(255, 0, 0); */
+    /* padding: 1% 8% 10% 8%; */
+    box-sizing: border-box;
+    margin: 2.5% auto;
+}
+.Industriesmenu-tittle{
+    height: 10vh;
+    width: 100%;
+    /* border: 1px solid rgb(255, 0, 0); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Industriesmenu-tittle h1{
+    height: 10vh;
+    width: 23%;
+    /* border: 1px solid rgb(255, 0, 0); */
+    position: relative;
+    font-size: 5.5vh;
+    font-weight: bold;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-decoration: underline;
+    text-decoration-color: yellow;  */
+}
+.Industriesmenu-tittle h1::after {
+    content: "";
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px; /* Adjust the thickness of the underline */
+    background-color: yellow; /* Set the underline color to yellow */
+}
+.Industriesmenu-list{
+    height: 65vh;
+    width: 100%;
+    /* border: 1px solid rgb(255, 0, 0); */
+    /* border: 1px solid rgb(23, 19, 250); */
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Industriesmenu-list-name{
+    height: 65vh;
+    width: 100%;
+     gap: 1px;
+    padding-top: 4%;
+    /* border: 1px solid rgb(23, 19, 250); */
+    line-height: 2;
+}
+.Industriesmenu-list-name ul{
+    font-size: 2.8vh;
+    font-weight: 600;
+    /* border: 1px solid black; */
+}
+
+.Industriesmenu-list-name ul li{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.Industriesmenu-list-name ul p {
+    width: 7%;
+    margin-top: 2vh;
+    font-size: 4vh;
+    /* border: 1px solid rgb(202, 8, 8); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffcc00; 
+}
+
+.Industriesmenu-list-name ul h1 {
+    /* border: 1px solid rgb(9, 218, 72); */
+    text-align: center;
+    width: 80%;
+    text-align: left;
+    margin-top: 2vh;
+}

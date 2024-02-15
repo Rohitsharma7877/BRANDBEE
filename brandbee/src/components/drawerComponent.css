@@ -1,0 +1,26 @@
+@media screen and (max-width: 767px){
+    .drawer-box1{
+        display: none;
+    }
+
+    .drawer-box2{
+        color: white;
+    }
+
+    .drawer-box3{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    .drawer-box1{
+        display: none;
+    }
+    .drawer-box2{
+        color: white;
+    }
+    .drawer-box3{
+        display: none;
+    }
+}

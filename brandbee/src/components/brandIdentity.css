@@ -1,0 +1,311 @@
+
+.BrandStrategy-main1{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    /* background-color: rgb(238, 232, 232); */
+    margin-top: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BrandStrategy-main2{
+    height: auto;
+    width: 83%;
+    /* border: 1px solid black; */
+    margin: 1%;
+    text-align: left;
+    /* margin-top: 104px; */
+}
+
+.BrandStrategy-main-text{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid rgb(231, 9, 9); */
+    /* margin: .2%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BrandStrategy-main-text1{
+    height: 80vh;
+    width: 40%;
+    /* border: 1px solid rgb(48, 10, 216); */
+}
+
+.BrandStrategy-main-heading{
+    height: auto;
+    width: 100%;
+    /* display: flex; */
+    gap: 2%;
+    overflow: hidden;
+    line-height: 1.3;
+    /* border: 1px solid rgb(4, 1, 19); */
+}
+
+
+.animate-heading {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: slide-in 0.6s forwards;
+  }
+  
+  @keyframes slide-in {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  .animate-heading span {
+    display: inline-block;
+    transform-origin: 100% 50%;
+    animation: letter-fade-in 0.6s forwards;
+  }
+  
+  @keyframes letter-fade-in {
+    from {
+      opacity: 0;
+      transform: scaleX(0);
+    }
+    to {
+      opacity: 1;
+      transform: scaleX(1);
+    }
+  }
+  
+  /* Apply styles to each letter individually */
+  .animate-heading span:nth-child(1) {
+    animation-delay: 0.1s;
+  }
+  
+  .animate-heading span:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  
+
+.BrandStrategy-main-heading h1{
+    font-size: 6.7vh;
+    font-weight: bold;
+    text-align: left;
+}
+
+.BrandStrategy-main-subheading{
+  margin-top: 4%;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    /* border: 1px solid rgb(4, 1, 19); */
+}
+
+
+
+.animate2-heading2 {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: slide-in 0.6s forwards;
+    /* height: 20vh; */
+    /* width: 100%; */
+  }
+  
+  @keyframes slide-in {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  .animate2-heading2 span {
+    display: inline-block;
+    transform-origin: 100% 50%;
+    animation: letter-fade-in 0.6s forwards;
+  }
+  
+  @keyframes letter-fade-in {
+    from {
+      opacity: 0;
+      transform: scaleX(0);
+    }
+    to {
+      opacity: 1;
+      transform: scaleX(1);
+    }
+  }
+  
+  /* Apply styles to each letter individually */
+  .animate2-heading2 span:nth-child(1) {
+    animation-delay: 0.1s;
+  }
+  
+  .animate2-heading2 span:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  
+
+.BrandStrategy-main-subheading h2{
+  height: auto;
+  width: 100%;
+    font-size: 3.7vh;
+    font-weight: bold;
+    text-align: left;
+    /* border: 1px solid rgb(255, 8, 8); */
+}
+
+
+.BrandStrategy-main-text2{
+    height: auto;
+    width: 60%;
+    /* border: 1px solid rgb(23, 19, 250); */
+}
+
+.BrandStrategy-main-write1{
+    height: auto;
+    width: 99%;
+    /* border: 1px solid rgb(23, 19, 250); */
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    
+
+}
+
+.BrandStrategy-main-line1{
+  height: auto;
+  width: 90%;
+  /* border: 1px solid rgb(221, 13, 24); */
+  margin: 1%;
+  font-size: 3vh;
+  font-weight: bold;
+  line-height: 1.4;
+  text-align: left;
+  color: gray;
+  display: flex; 
+  flex-direction: column; 
+  align-items: flex-start;
+}
+/* .BrandStrategy-main-line2{
+  height: auto;
+  width: 90%;
+  border: 1px solid rgb(221, 13, 24);
+  margin: 1%;
+  font-size: 3vh;
+  font-weight: bold;
+  line-height: 1.4;
+  text-align: left;
+  color: gray;
+  display: flex; 
+  flex-direction: column; 
+  align-items: flex-start;
+  position: absolute;
+  top: 10px;
+  top: 0;
+} */
+.BrandStrategy-main-line2 p{
+  /* height: 100%; */
+  margin: 0;
+}
+.BrandStrategy-main-write2{
+    height: auto;
+    width: 100%;
+    margin-top: 5%;
+    /* border: 1px solid rgb(23, 19, 250); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BrandStrategy-main-dot{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid rgb(23, 19, 250); */
+    margin: 1%;
+}
+
+.BrandStrategy-main-dot1{
+    height: auto;
+    width: 100%;
+     gap: 3px;
+    padding-right: 10vh;
+}
+.BrandStrategy-main-dot1 ul{
+    font-size: 2.4vh;
+    font-weight: bold;
+}
+
+.BrandStrategy-main-dot1 ul li{
+    display: flex;
+    align-items: center;
+}
+
+.BrandStrategy-main-dot1 ul p {
+    width: 10%;
+    margin-top: 2vh;
+    font-size: 3vh;
+}
+
+.BrandStrategy-main-dot1 ul h1 {
+    /* border: 1px solid black; */
+    text-align: center;
+    width: 90%;
+    text-align: left;
+    margin-top: 2vh;
+}
+
+
+.BrandStrategy-main-image{
+    height: auto;
+    width: 100%;
+    /* margin-top: 3%; */
+    padding-top: 2%;
+    /* border: 1px solid rgb(231, 9, 9); */
+    /* margin: .2%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BrandStrategy-main-image1{
+    height: 60vh;
+    
+    width: 90%;
+   
+    margin: 1%;
+    /* background-image:url("assets/writingboard.jpg") ; */
+    background-size: contain;
+    background-attachment: fixed;
+    border-radius: 2%;
+}
+
+
+
+
+
+.BrandStrategy-main-image1 img{
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+.BrandStrategy-main-image2{
+    height: 60vh;
+    width: 40%;
+    margin: 1%;
+    /* border: 1px solid rgb(231, 9, 9); */
+}
+
+.BrandStrategy-main-image2 img{
+    height: 59.6vh;
+    width: 100%;
+    border-radius: 2%;
+}

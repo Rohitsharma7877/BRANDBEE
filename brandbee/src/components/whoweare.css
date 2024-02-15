@@ -1,0 +1,97 @@
+
+
+.whoeweare-main1{
+    height:auto;
+    width: 100%;
+     /* border: 1px solid black; */
+     padding-top: 1.5%;
+     margin-top: 6.3%;
+}
+
+.whoeweare-main2{
+    height: auto;
+    width: 87%;
+    /* border: 1px solid rgb(250, 1, 1); */
+    box-sizing: border-box;
+    margin: 2% auto;
+}
+.whoeweare-text1{
+    height: auto;
+    width: 100%;
+    /* margin: 3%; */
+    /* border: 1px solid rgb(247, 7, 7); */
+}
+
+.whoeweare-heading{
+    height: auto;
+    width: 35%;
+    margin: 1%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* text-align: left; */
+    /* border: 1px solid rgb(12, 12, 12); */
+}
+.whoeweare-heading h1{
+    text-align: left;
+    font-size: 9.3vh;
+    font-weight: bold;
+}
+.whoeweare-text2{
+    height: auto;
+    width: 100%;
+    /* margin: 3%; */
+    /* border: 1px solid rgb(247, 7, 7); */
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.whoeweare-paragh1{
+    height: auto;
+    width: 35%;
+    margin: 1%;
+    display: flex;
+   margin-top: 4%;
+    align-items: center;
+    text-align: left;
+    font-size: 2.9vh;
+    font-weight: bold;
+    margin-left: 53vh;
+    /* border: 1px solid rgb(12, 12, 12); */
+}
+.whoeweare-paragh2{
+    height: 30vh;
+    width: 35%;
+    /* border: 1px solid rgb(12, 12, 12); */
+}
+
+.whoeweare-logo{
+    height: 30vh;
+    width: 40%;
+    /* border: 1px solid rgb(247, 4, 4); */
+    margin-left: auto;
+}
+.whoeweare-logo img{
+    height: 15vh;
+    width: 80%;
+    margin-top: 45%;
+    /* border: 1px solid rgb(247, 4, 4); */
+}
+.whoeweare-text3{
+    height: auto;
+    margin-top: 3%;
+    /* width: 100%; */
+    /* margin: 3%; */
+    /* border: 1px solid rgb(241, 5, 5); */
+}
+
+.whoeweare-video video {
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid rgb(25, 241, 5); */
+}
+
+.whoeweare-video img{
+    height: 100%;
+    width: 100%;
+}

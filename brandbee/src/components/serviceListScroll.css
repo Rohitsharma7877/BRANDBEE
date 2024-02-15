@@ -1,0 +1,390 @@
+
+.serviceListScroll-main{
+    height: 116.4vh;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.serviceListScroll-box1{
+    height: 116.4vh;
+    width: 70%;
+    /* border: 1px solid red; */
+    background-color: black;
+}
+.serviceListScroll-write{
+    height: 116.4vh;
+    width: 70%;
+    /* border: 1px solid red; */
+    margin: 5%;
+    margin-left: 16vh;
+   
+}
+
+.serviceListScroll-write1{
+    height: 11vh;
+    width: 95%;
+    /* border: 1px solid rgb(0, 0, 0); */
+    margin: 5%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    
+}
+.serviceListScroll-write1 h1{
+    font-size: 3vh;
+    font-weight: bold;
+    line-height: 1.3;
+    color: gray;
+    text-align: left;
+    
+    
+}
+.serviceListScroll-box2 {
+    height: 100%;
+    width: 90%;
+    /* border: 1px solid red; */
+    position: relative;
+    /* display: flex; */
+}
+
+/* .serviceListScroll-box2-image1,
+.serviceListScroll-box2-image2,
+.serviceListScroll-box2-image3 {
+    height: 100%;
+    width: 100%;
+    position: absolute; 
+    mix-blend-mode: multiply;
+    opacity: 0;
+    transition: filter 0.5s ease, opacity 0.5s ease;
+} */
+
+.serviceListScroll-box2-image1.active {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-image: url("assets/Brand-strategy.png");
+}
+.serviceListScroll-box2-image1 {
+    display: none;
+}
+
+ .serviceListScroll-box2-image2.active {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-image: url("assets/Brand-identity.png");
+}
+.serviceListScroll-box2-image2 {
+    display: none;
+}
+
+.serviceListScroll-box2-image3.active {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-image: url("assets/Corporate-communcation.png");
+}
+.serviceListScroll-box2-image3 {
+    display: none;
+}
+
+
+
+.serviceListScroll-box2-image4.active{
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-image:url("assets/Brand-Refresh.png") ;
+}
+.serviceListScroll-box2-image4 {
+    display: none;
+}
+.serviceListScroll-box2-image5.active{
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-image:url("assets/Brand-commnication-&-design.png") ;
+}
+.serviceListScroll-box2-image5 {
+    display: none;
+}
+.serviceListScroll-box2-image6.active{
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-image:url("assets/Content-development.png") ;
+}
+.serviceListScroll-box2-image6 {
+    display: none;
+}
+.serviceListScroll-box2-image7.active{
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-image:url("assets/Brand-experience-design.png") ;
+}
+.serviceListScroll-box2-image7 {
+    display: none;
+}
+.serviceListScroll-box2-image8.active{
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-image:url("assets/Photoshoots-&-video-shoots.png") ;
+}
+.serviceListScroll-box2-image8 {
+    display: none;
+}
+.serviceListScroll-box2-image9.active{
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-image:url("assets/Brand-conformance.png") ;
+}
+.serviceListScroll-box2-image9 {
+    display: none;
+}
+
+
+
+
+
+
+.serviceListScroll-box2-image11.active {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-image: url("assets/1-Website-&-mobile-app-development.jpg");
+}
+.serviceListScroll-box2-image11 {
+    display: none;
+}
+
+ .serviceListScroll-box2-image12.active {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-image: url("assets/2-Social-media-marketing.jpg");
+}
+.serviceListScroll-box2-image12 {
+    display: none;
+}
+
+.serviceListScroll-box2-image13.active {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-image: url("assets/3-SEO.jpg");
+}
+.serviceListScroll-box2-image13 {
+    display: none;
+}
+
+
+
+.serviceListScroll-box2-image14.active{
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-image:url("assets/4-Content-marketing.jpg") ;
+}
+.serviceListScroll-box2-image14 {
+    display: none;
+}
+.serviceListScroll-box2-image15.active{
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-image:url("assets/5-Performance-marketing.jpg") ;
+}
+.serviceListScroll-box2-image15 {
+    display: none;
+}
+.serviceListScroll-box2-image16.active{
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-image:url("assets/6-Community--Influencer-marketing.jpg") ;
+}
+.serviceListScroll-box2-image16 {
+    display: none;
+}
+.serviceListScroll-box2-image17.active{
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-image:url("assets/7-Video-Marketing.jpg") ;
+}
+.serviceListScroll-box2-image17 {
+    display: none;
+}
+.serviceListScroll-box2-image18.active{
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-image:url("assets/8-Email-marketing.jpg") ;
+}
+.serviceListScroll-box2-image18 {
+    display: none;
+}
+.serviceListScroll-box2-image19.active{
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-image:url("assets/9-Marketing-automation.jpg") ;
+}
+.serviceListScroll-box2-image19 {
+    display: none;
+}
+
+
+.serviceListScroll-box3{
+    height: 116.4vh;
+    width: 140%;
+    background-color: black;
+    /* border: 1px solid red; */
+    
+}
+/* .serviceListScroll-box3{
+   display: none; 
+} */
+.serviceListScroll-box3-text.active{
+    display: block;
+    height: 80vh;
+    width: 70%;
+    /* border: 1px solid rgb(15, 15, 15); */
+    margin: 15%;
+}
+.serviceListScroll-box3-text{
+    display: none;
+}
+.serviceListScroll-box3-heading1{
+    height: auto;
+    width: 95%;
+    /* border: 1px solid rgb(241, 8, 8); */
+    margin: 2%;
+    font-size: 5.2vh;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+}
+
+.serviceListScroll-box3-heading2{
+    height: auto;
+    width: 95%;
+    /* border: 1px solid rgb(241, 8, 8); */
+    margin: 2%;
+    font-size: 2.6vh;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 4%;
+    color: gray;
+}
+.serviceListScroll-box3-heading3{
+    height: 25vh;
+    width: 95%;
+    /* border: 1px solid rgb(241, 8, 8); */
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.serviceListScroll-box3-list1{
+    height: auto;
+    width: 95%;
+    /* border: 1px solid rgb(241, 8, 8); */
+    margin: 1%;
+    color: white;
+}
+
+.serviceListScroll-box3-list1 ul{
+    font-size: 2.1vh;
+    font-weight: bold;
+}
+
+.serviceListScroll-box3-list1 ul li{
+    display: flex;
+    align-items: center;
+}
+
+.serviceListScroll-box3-list1 ul p {
+    /* border: 1px solid black; */
+    width: 10%;
+    margin-top: 2vh;
+    font-size: 3vh;
+}
+
+.serviceListScroll-box3-list1 ul h1 {
+    /* border: 1px solid black; */
+    text-align: center;
+    width: 90%;
+    text-align: left;
+    margin-top: 2vh;
+}
+.serviceListScroll-box3-list2{
+    height: 23vh;
+    width: 95%;
+    /* border: 1px solid rgb(241, 8, 8); */
+    margin: 1%;
+    color: white;
+}
+
+.serviceListScroll-box3-list2{
+    height: 23vh;
+    width: 95%;
+    /* border: 1px solid rgb(241, 8, 8); */
+    margin: 1%;
+    /* color: white; */
+}
+
+.serviceListScroll-box3-list2 ul{
+    font-size: 2.2vh;
+    font-weight: bold;
+}
+
+.serviceListScroll-box3-list2 ul li{
+    display: flex;
+    align-items: center;
+}
+
+.serviceListScroll-box3-list2 ul p {
+    /* border: 1px solid black; */
+    width: 10%;
+    margin-top: 2vh;
+    font-size: 3vh;
+}
+
+.serviceListScroll-box3-list2 ul h1 {
+    /* border: 1px solid black; */
+    text-align: center;
+    width: 90%;
+    text-align: left;
+    margin-top: 2vh;
+}
+.serviceListScroll-box3-heading4{
+    height: 10vh;
+    width: 95%;
+    /* border: 1px solid rgb(241, 8, 8); */
+    margin: 2%;
+    
+}
+
+.btn-startedd {
+    height: auto;
+    width: 60%;
+    margin-top:20px;
+    background: #ffde16;
+    color: #000;
+    padding: 16px 20px;
+    font-size: 20px;
+    font-weight: 650;
+    line-height: 1.3;
+    gap: 15px;
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    font-family: "Kanit", sans-serif;
+}

@@ -1,0 +1,60 @@
+
+
+.coursel-main{
+    height: 130vh;
+    width: 100%;
+       display: flex;
+    justify-content: center;
+      align-items: center;
+}
+
+.coursel-main1{
+  height: auto;
+  width: 100%;
+  padding-top: 5vh;
+   font-size: 8vh;
+    font-weight: bold;
+
+}
+.coursel-tag{
+  font-size: 22px;
+ 
+  padding-bottom: 5vh;
+  border: 2px solid black;
+  border-radius: 25px;
+  background: rgb(236, 234, 234);
+  height: 10px;
+  width: 29vh;
+  margin: -70px auto 0; 
+ }
+
+.slick-prev,
+.slick-next {
+  font-size: 40px;
+  color: #1a1818;
+  background-color: rgb(187, 182, 182);
+}
+
+
+.slick-prev {
+  left: 20px;
+  bottom: 40px;
+  transform: translateY(-50%);
+  margin-right: 90vh;
+}
+
+
+.slick-next {
+  right: 20px;
+  transform: translateY(-50%);
+  margin-left: 90px;
+}
+
+
+.slick-prev:hover,
+.slick-next:hover {
+  color: #0e0f0e;
+}
+
+
+

@@ -1,0 +1,120 @@
+.esteemed-main1{
+    height: auto;
+    width: 100%;
+    border: 1px solid white;
+    margin-top: 6.1%;
+}
+
+.esteemed-main2{
+    height: 830vh;
+    width: 88%;
+    /* border: 1px solid rgb(5, 5, 5); */
+    margin: 5% 2% 0 9%;
+}
+.esteemed-box1{
+    height: 10vh;
+    width: 100%;
+    /* border: 1px solid rgb(5, 5, 5); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.esteemed-box1 h1{
+    font-size: 6vh;
+    font-weight: bold;
+    /* border: 1px solid rgb(5, 5, 5); */
+}
+
+.esteemed-box2{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid rgb(5, 5, 5); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.esteemed-flex1{
+    height: 170vh;
+    width: 30%;
+    /* border: 1px solid rgb(240, 4, 4); */
+}
+.esteemed-list {
+    height: 60vh;
+    width: 80%;
+    margin: 20% 0% 0 20%;
+    text-align: left;
+    font-size: 2.6vh;
+    font-weight: 500;
+    line-height: 2;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: yellow rgb(243, 243, 243);
+}
+
+.esteemed-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.esteemed-list::-webkit-scrollbar-thumb {
+    background-color: yellow;
+    border-radius: 10%; /* 10% border radius */
+}
+
+.esteemed-list::-webkit-scrollbar-track {
+    background-color: rgb(243, 243, 243);
+}
+
+/* Remove top and bottom arrows */
+.esteemed-list::-webkit-scrollbar-button:start:decrement,
+.esteemed-list::-webkit-scrollbar-button:end:increment {
+    display: none;
+}
+
+
+.esteemed-list h1 {
+    cursor: pointer;
+}
+
+.esteemed-list h1.active {
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 6px; 
+    text-decoration-color: yellow;
+    text-decoration-thickness: 4px;
+}
+
+
+/* Grid itme */
+.estm-flex2{
+    height: 170vh;
+    width: 100%;
+    /* border: 1px solid rgb(4, 240, 4); */
+}
+
+.estm-view-grid{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: repeat(4, 1fr); */
+}
+
+.estm-view-grid-item {
+    position: relative;
+    overflow: hidden;
+    /* border: 1px solid red; */
+    height: auto;
+    width: 90%;
+    margin: 6%;
+  }
+    
+  .estm-view-grid-item img {
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .estm-view-grid-item:hover img {
+    transform: scale(1.1);
+  }
+  

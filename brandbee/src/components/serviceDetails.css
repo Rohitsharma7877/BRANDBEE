@@ -1,0 +1,216 @@
+
+
+
+.serviceDetails-main1{
+     height: auto;
+     width: 100%;
+     /* border: 1px solid red; */
+}
+
+.serviceDetails-main2{
+    height: auto;
+    width: 90%;
+    /* border: 1px solid rgb(0, 0, 0); */
+    margin: 7%;
+}
+
+.serviceDetails-heading{
+    height: 40vh;
+    width: 95%;
+    /* border: 1px solid rgb(238, 8, 8); */
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.serviceDetails-heading1{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid rgb(238, 8, 8); */
+    margin: 1%;
+    text-align: left;
+    display: flex; /* Add display flex */
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+}
+
+.serviceDetails-heading1 h1{
+    font-size: 5.4vh;
+    font-weight: bold;
+    height: 100%;
+    line-height: 1.2;
+    margin: 0; /* Remove any default margin */
+    display: flex; /* Add display flex */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.serviceDetails-heading2{
+    height: 35vh;
+    width: 40%;
+    /* border: 1px solid rgb(238, 8, 8); */
+    /* margin: 2%; */
+}
+
+.serviceDetails-banner-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50vh;
+}
+
+.serviceDetails-banner-btn2 {
+    /* border: 1px solid red; */
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50%;
+    height: 220px;
+    width: 220px;
+    background: #f1e820;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    color: rgb(7, 7, 7);
+    transition: transform 0.2s ease;
+}
+
+.serviceDetails-banner-btn2 h1 {
+    margin: 0; /* Remove default margin */
+}
+
+.serviceDetails-banner-btn2 span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1px; /* Adjust the gap between h1 and icon */
+    font-weight: bold; /* Make the icon bold */
+    padding-right: 25px; /* Add padding to the left of the icon */
+}
+
+.serviceDetails-banner-btn2 span svg {
+    font-size: 24px; /* Adjust the size of the icon */
+}
+
+.serviceDetails-banner-btn2:hover {
+    transform: translateX(-5px); /* Move the button 5px to the left on hover */
+    animation: vibrate 0.3s ease infinite; /* Apply vibrating animation */
+}
+
+@keyframes vibrate {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-5px);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+    75% {
+        transform: translateX(-5px);
+    }
+}
+
+
+
+
+
+.serviceDetails-imagee{
+    height: 70vh;
+    width: 95%;
+    /* border: 1px solid rgb(238, 8, 8); */
+    margin: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 40vh; */
+}
+
+.serviceDetails-circle {
+    height: 30vh;
+    width: 30%;
+    margin-bottom: 40vh;
+}
+
+.serviceDetails-circle1 {
+    position: relative; /* Set position relative to allow absolute positioning of the pseudo-element */
+    height: 27vh;
+    width: 60%;
+    border-radius: 50%;
+    background: #f1e820;
+}
+
+.serviceDetails-circle1::before {
+    content: '';
+    position: absolute;
+    top: 50%; /* Position the pseudo-element vertically at the center */
+    left: 0; /* Align the pseudo-element to the left */
+    width: 100%; /* Make the pseudo-element span the entire width */
+    height: 2px; /* Set the height of the line */
+    background-color: #000; /* Set the color of the line */
+    transform-origin: center top; /* Set transform origin to center top */
+    transform: translateY(-50%) ;
+}
+
+
+.serviceDetails-image{
+    height: 70vh;
+    width: 95%;
+    /* margin-bottom: 40vh; */
+    /* border: 1px solid rgb(238, 8, 8); */
+}
+
+.serviceDetails-image img{
+    height: 70vh;
+    width: 95%;
+    border-radius: 5%;
+}
+
+.serviceDetails-paragh{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid rgb(238, 8, 8); */
+    /* margin: 1%; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* margin-left: 20vh; */
+}
+.serviceDetails-paragh-box{
+    height: auto;
+    width: 69%;
+    /* border: 1px solid rgb(8, 238, 85); */
+    /* margin: 1%; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    margin-left: 50vh;
+}
+.serviceDetails-paragh1{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin: 2%;
+    font-size: 2.9vh;
+    line-height: 1.4;
+    font-weight: 500;
+    text-align: left;
+    color: gray;
+    display: flex; 
+  flex-direction: column; 
+  align-items: flex-start;
+}
+    /* margin-left: 30vh */
+
+.serviceDetails-paragh1 p{
+    margin: 0;
+}
+.serviceDetails-paragh2{
+    height: auto;
+    width: 100%;
+    border: 1px solid rgb(235, 14, 14);
+    margin: 2%;
+}
+

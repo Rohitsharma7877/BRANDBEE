@@ -1,0 +1,113 @@
+
+
+.keyboard-main1{
+    height: auto;
+    width: 98%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+
+.keyboard-main2{
+    height:auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid rgb(12, 12, 12); */
+    margin-top: 5%;
+    margin: 8%;
+}   
+
+
+.keyboard-imagee{
+    height: 120vh;
+    width: 70%;
+    /* border: 1px solid rgb(12, 12, 12); */
+    /* background-image:url("assets/keyboard.png") ; */
+    background-size:calc(50%);
+    background-attachment: fixed;
+    border-radius: 2%;
+}
+
+
+
+.keyboard-texts{
+    height: auto;
+    width: 100%;
+   
+   margin: 2%;
+    /* border: 1px solid rgb(12, 12, 12); */
+} 
+
+.keyboard-texts1{
+    height: auto;
+    width: 95%;
+    /* border: 1px solid rgb(247, 5, 5); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+
+.keyboard-box{
+    height: 10vh;
+    width: 20%;
+    margin: 2%;
+    /* border: 1px solid rgb(12, 12, 12); */
+    text-align: right;
+    /* align-items: center; */
+}
+.keyboard-box h1{
+    font-size: 6.5vh;
+    margin-top: 5px;
+    font-weight: bold;
+    align-items: center;
+    color:#f1e820 ;
+}
+
+.keyboard-btn-started {
+    height: 60px;
+    width: 60%;
+    margin-top:10px;
+    background: #ffde16;
+    /* border: 1px solid rgb(12, 12, 12); */
+    color: #000;
+    padding: 16px 20px;
+    font-size: 20px;
+    font-weight: 650;
+    line-height: 1.3;
+    gap: 15px;
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    font-family: "Kanit", sans-serif;
+}
+
+.keyboard-box-texts{
+    height: auto;
+    width: 100%;
+    /* margin: 1%; */
+    /* border: 1px solid rgb(12, 12, 12); */
+    text-align: left;
+    font-size: 4.5vh;
+    font-weight: bold;
+    line-height: 1.2;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.keyboard-box-texts2{
+    height: auto;
+    width: 95%;
+    margin: 1%;
+    /* border: 1px solid rgb(12, 12, 12); */
+    text-align: left;
+    font-size: 2.7vh;
+    font-weight: bold;
+    line-height: 1.2;
+    justify-content: center;
+    /* align-items: center; */
+}

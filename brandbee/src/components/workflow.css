@@ -1,0 +1,50 @@
+
+.workflow-main1{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.workflow-main2{
+    height: auto;
+    width: 85%;
+    /* border: 1px solid rgb(241, 11, 11); */
+    margin: 1%;
+    margin-top: 10vh;
+   
+}
+
+.workflow-part1{
+    height: 80vh;
+    width: 95%;
+    /* border: 1px solid rgb(99, 11, 241); */
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.workflow-part-write{
+    height: 52vh;
+    width: 95%;
+    /* border: 1px solid rgb(99, 11, 241); */
+    margin: 1%;
+    text-align: left;
+}
+
+.workflow-part-write h1{
+    font-size: 3.7vh;
+    font-weight: bold;
+   
+    /* border: 1px solid red; */
+}
+
+.workflow-part-write p{
+    margin-top: 20px;
+    font-size: 2.4vh;
+    font-weight: bold;
+    color: gray;
+}

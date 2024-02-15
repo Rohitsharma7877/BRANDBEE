@@ -1,0 +1,75 @@
+
+.droup-main-image{
+    height: auto;
+    width: 150%;
+    margin-top: 38%;
+    border-top: 5px solid #fdfd06 ;
+    /* border-right: none; */
+    /* border-bottom: none; */
+    /* border-left: none; */
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+}
+
+.droup-main-image2{
+    height: 40vh;
+    width: 150%;
+    /* border: 1px solid rgb(219, 8, 8); */
+    /* margin-top: 90px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.droup-image1 {
+    height: 40vh;
+    width: 40%;
+    /* border: 1px solid green; */
+    margin: 0 auto; /* Center horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-l: 7vh; */
+}
+
+.droup-image-photo {
+    height: 35vh;
+    width: 75%;
+    /* border: 1px solid #f80202; */
+    
+    margin: 3vh auto; /* Center horizontally with some top margin */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.droup-image-photo img{
+    height: 100%;
+    width: 100%;
+}
+
+.droup-image2{
+    height: 40vh;
+    width: 25%;
+    /* border: 1px solid green; */
+}
+
+.droup-image3{
+    height: 40vh;
+    width: 25%;
+    /* border: 1px solid green; */
+}
+
+.droup-image4{
+    height: 40vh;
+    width: 25%;
+    /* border: 1px solid green; */
+}
+
+.droup-image5{
+    height: 40vh;
+    width: 25%;
+    /* border: 1px solid green; */
+}

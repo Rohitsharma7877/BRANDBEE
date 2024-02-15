@@ -1,0 +1,236 @@
+
+
+.main {
+    height: 120vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-grid {
+    height: 110vh;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid rgb(202, 11, 11); */
+}
+
+.box-serv{
+    /* border: 1px solid blue; */
+    /* background-color: rgb(236, 215, 215); */
+    height: 60%;
+    width: 100%;
+}
+
+.box-serv div p {
+    font-size: 30px;
+    text-align: left;
+    /* margin-top: 10px; */
+    text-decoration: solid;
+    /* font-weight: 90px; */
+}
+
+.box-serv div h1 {
+    height: 100%;
+    width: 100%;
+    font-size: 50px;
+    margin-top: 25px;
+    font-weight: bold; /* Set font weight to bold */
+    /* padding-top: 30px; */
+    text-align: left;
+}
+.box-trd{
+    /* border: 1px solid blue; */
+    /* background-color: rgb(236, 215, 215); */
+    height: 60%;
+    width: 100%;
+}
+
+.box-trd p{
+    font-size: 25px;
+    text-align: right;
+    /* margin-top: 10px; */
+    text-decoration: solid;
+    /* font-weight: 90px; */
+}
+
+
+
+.box-brd {
+    /* border: 1px solid blue; */
+    margin-bottom: 95px;
+    background-color: #f1e820;
+    height: 100%;
+    width: 103%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 20px; */
+}
+
+.box-bor{
+    /* border: 1px solid rgb(2, 2, 10); */
+    height: auto;
+    width: auto;
+    text-transform: uppercase;
+    /* margin-top:10px ; */
+    /* overflow: hidden; */
+
+}
+
+.box-brd div h1 {
+    
+    font-size: 70px;
+    line-height: 70px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    color: #000;
+    -webkit-text-fill-color: rgba(255,255,255,0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 85px;
+    font-weight: 900;
+    text-decoration: solid;
+    text-align: left;
+    height: 95px;
+    margin-bottom: 75px; 
+    
+    
+}
+.brnd {
+    /* border: 1px solid rgb(2, 2, 10); */
+    margin-bottom: 10px;
+}
+
+.box-brd div p {
+    
+    font-size: 18px; /* Increase the font size as needed */
+    font-weight: bold; /* Make the text bold */
+    text-align: left;
+    width: 100%;
+}
+
+
+
+
+
+
+.box-digt {
+    margin-bottom: 95px;
+    background-color: #f1e820;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* border-width: 0 8px;  */
+    border-style: solid;
+    /* border-color: black; */
+    border-left: 7px solid #000;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box-dig{
+    height: auto;
+    width: auto;
+    text-transform: uppercase;
+}
+
+.box-digt div h1 {
+    font-size: 70px;
+    line-height: 70px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    color: #000;
+    -webkit-text-fill-color: rgba(255,255,255,0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 85px;
+    font-weight: 900;
+    text-decoration: solid;
+    text-align: left;
+    height: 95px;
+    margin-bottom: 75px; 
+    
+}
+
+.digts {
+    /* border: 1px solid rgb(2, 2, 10); */
+    margin-bottom: 10px;
+}
+
+.box-digt div p {
+    
+    font-size: 18px; /* Increase the font size as needed */
+    font-weight: bold; /* Make the text bold */
+    text-align: left;
+    width: 100%;
+}
+
+
+.box-brd .box-bor2:hover {
+    background-color: black;
+    color: white;
+    height: 100%;
+    width: 102%;
+    padding-left: 10%;
+    text-align: center;
+    justify-content: center;
+    /* display: flex; */
+}
+
+.box-digt .box-dig:hover {
+    background-color: black;
+    color: white;
+    height: 100%;
+    width: 102%;
+    padding-left: 10%;
+    text-align: center;
+    justify-content: center;
+}
+
+
+  
+  /* Additional styling if needed */
+  
+
+/* Reset styles for .box-bor when .box-bor2 is hovered */
+/* .box-brd .box-bor:hover {
+    background-color: initial;
+    color: initial;
+} */
+
+/* .box-brd .box-bor:hover .brnd h1::before {
+    content: "";
+} */
+
+
+/* Responsive styles for screens smaller than 769px (adjust as needed) */
+
+
+
+@media screen and (max-width: 768px) {
+    .main-grid {
+        grid-template-columns: 1fr; /* Single column for mobile */
+        grid-template-rows: auto; /* Auto rows for mobile */
+    }
+}
+/* .box-serv{
+    width: 50%;
+    border: 1px solid rgb(202, 11, 11);
+    height: 30vh;
+} */
+
+
