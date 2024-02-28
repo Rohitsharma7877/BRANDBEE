@@ -1,6 +1,6 @@
 
 .speaker-main {
-    height: 90vh;
+    height: auto;
     width: 100%;
     /* border: 1px solid black; */
     display: flex;
@@ -10,7 +10,7 @@
   
   .speaker-main2 {
     height: 55vh;
-    width: 90%;
+    width: 85%;
     border-radius: 10px;
     /* border: 1px solid red; */
     display: grid;
@@ -21,7 +21,7 @@
   }
   
   .speaker-imge {
-    /* height: 100%; */
+    height: 55vh;
   /* width: 100%; */
   /* border: 1px solid red; */
   display: flex;
@@ -31,9 +31,9 @@
   }
 
   .speaker-imge img{
-    height: 48vh;
+    height: 70%;
     width: 70%;
-    margin-top: 45px;
+    /* margin-top: 45px; */
     border-radius: 6px;
   }
   
@@ -44,14 +44,14 @@
     text-align: left;
     /* margin-top: 25px; */
     padding-left: 30px;
-    font-size: 7.1vh;
+    font-size: 6.5vh;
     font-weight: bold;
     line-height: 1.4;
     color: black;
   }
 
   .speaker-img2 h1{
-    margin-top: 7.1vh;
+    margin-top: 9vh;
   }
 
   .speaker-img3 {
@@ -61,38 +61,40 @@
     text-align: left;
   }
 
+  .speaker-write{
+    height: auto;
+    width: 100%;
+    margin-top: 10vh;
+    /* border: 1px solid rgb(15, 2, 2); */
+    
+}
   .speaker-img3 h1{
     padding-left: 50px;
     font-size: 2.9vh;
     font-weight: bold;
     line-height: 1.4;
+    text-align: left;
+    /* border: 1px solid red; */
   }
 
-.speaker-write{
-    height: 15vh;
-    width: 100%;
-    margin-top: 10vh;
-    /* border: 1px solid rgb(15, 2, 2); */
-}
-/* .speaker-write h1{
-    margin-top: 10vh;
-} */
+
+
 
 .speaker-btn{
-    height: 60px;
-    /* width: 30%; */
-    margin-top:10px;
+    height: 45px;
+    width: 75%;
+    margin-top:25px;
     background: #ffde16;
     color: #000;
-    padding: 16px 20px;
-    font-size: 20px;
-    font-weight: 650;
-    line-height: 1.3;
+    padding: 18px 20px;
+    font-size: 13.5px;
+    font-weight: 600;
+    /* line-height: 1.3; */
     gap: 15px;
     align-items: center;
     border-radius: 5px;
     display: flex;
-    margin-left: 40px;
+    margin-left: 47px;
     font-family: "Kanit", sans-serif;
 }
 .speaker-btn:hover{

@@ -70,31 +70,32 @@ const Navbar = () => {
         </div>
         <div className="nav_section">
           <ul className="section">
-            <li
-              onMouseEnter={() => setDropdownOpen(true)}
-              onMouseLeave={() => setDropdownOpen(false)}
-            >
+            <li onClick={() => isDropdownOpen?setDropdownOpen(false):setDropdownOpen(true)}>
               <Menu>
                 <MenuButton
                   as={Button}
                   style={{
                     background: "white",
-                    fontSize: "1.2cap",
+                    fontSize: "1.4cap",
+                    fontWeight:"bold",
                     fontFamily: '"Kanit", sans-serif',
                   }}
                 >
                   SERVICES
                 </MenuButton>
               </Menu>
-              <div>{isDropdownOpen && <DroupDown />}</div>
+               
             </li>
+            
             <li>
               <Menu>
                 <MenuButton
                   as={Button}
                   style={{
                     background: "white",
-                    fontSize: "1.2cap",
+                    fontSize: "1.4cap",
+                    fontWeight:"bold",
+                    
                     fontFamily: '"Kanit", sans-serif',
                   }}
                 >
@@ -106,7 +107,8 @@ const Navbar = () => {
                     color: "black",
                     height: "32vh",
                     lineHeight: "2.3",
-                    fontSize: "1.3cap",
+                    fontSize: "1.4cap",
+                    fontWeight:"bold",
                     fontFamily: '"Kanit", sans-serif',
                   }}
                 >
@@ -132,7 +134,8 @@ const Navbar = () => {
                   onClick={() => handleWhoWeAreClick("samplework")}
                   style={{
                     background: "white",
-                    fontSize: "1.2cap",
+                    fontSize: "1.4cap",
+                    fontWeight:"bold",
                     fontFamily: '"Kanit", sans-serif',
                   }}
                 >
@@ -147,7 +150,8 @@ const Navbar = () => {
                   onClick={() => handleWhoWeAreClick("ourClients")}
                   style={{
                     background: "white",
-                    fontSize: "1.2cap",
+                    fontSize: "1.4cap",
+                    fontWeight:"bold",
                     fontFamily: '"Kanit", sans-serif',
                   }}
                 >
@@ -166,7 +170,8 @@ const Navbar = () => {
                   onClick={() => handleWhoWeAreClick("industriesWeServe")}
                   style={{
                     background: "white",
-                    fontSize: "1.2cap",
+                    fontSize: "1.4cap",
+                    fontWeight:"bold",
                     fontFamily: '"Kanit", sans-serif',
                   }}
                 >
@@ -183,7 +188,8 @@ const Navbar = () => {
                   onClick={() => handleWhoWeAreClick("wethink")}
                   style={{
                     background: "white",
-                    fontSize: "1.2cap",
+                    fontSize: "1.4cap",
+                    fontWeight:"bold",
                     fontFamily: '"Kanit", sans-serif',
                   }}
                 >
@@ -200,7 +206,7 @@ const Navbar = () => {
                     background: "black",
                     color: "white",
                     borderRadius: "none",
-                    fontSize: "1.2cap",
+                    fontSize: "1.3cap",
                     fontFamily: '"Kanit", sans-serif',
                   }}
                 >
@@ -209,11 +215,14 @@ const Navbar = () => {
               </Menu>
             </li>
           </ul>
+          
         </div>
+        
         <div className="nav-drawer">
           <DrawerComponent />
         </div>
       </div>
+      <div style={{ display: isDropdownOpen ? 'block' : 'none' }}> {<DroupDown />}</div>
     </>
   );
 };

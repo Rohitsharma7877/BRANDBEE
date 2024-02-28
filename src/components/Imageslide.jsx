@@ -31,7 +31,7 @@ const Imageslide = () => {
                 ref={containerRef}
                 style={{
                   whiteSpace: 'pre-line',
-                  height: '195px',
+                  height: '150px',
                   display: 'block',
                   opacity: 0, 
                   transform: 'translateY(40px)', 
@@ -51,14 +51,15 @@ const Imageslide = () => {
                     <div className='grid1'>
                         <p>
                         Our award-winning team uses strategy, design, SEO,
-                        <br/>paid ads, and social media to connect with current
-                        <br/>and potential customers, generate more leads, and
-                        <br/> prepare your business for future growth.
-
-                        <br/><br/>We can help you with the latest high tech solutions;
-                        <br/>thanks to our company culture, which is built on
-                        <br/>everyday learning and self-improvement from each
-                        <br/> and every single task that we do.
+paid ads, and social media to connect with current
+and potential customers, generate more leads, and
+prepare your business for future growth.
+<br/>
+<br/>
+We can help you with the latest high tech solutions;
+thanks to our company culture, which is built on
+everyday learning and self-improvement from each
+and every single task that we do
                         </p>
                         
                     </div>

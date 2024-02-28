@@ -31,9 +31,10 @@ const ScrollAnimation = () => {
       ref={containerRef}
       style={{
         whiteSpace: 'pre-line',
-        height: '195px',
+        height: '155px',
         display: 'block',
         opacity: 0, 
+        
         transform: 'translateY(20px)', 
         animation: 'none',
       }}

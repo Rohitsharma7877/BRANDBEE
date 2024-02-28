@@ -68,10 +68,11 @@ const Articles = () => {
                 </div>
                 <div className='blog3'>
                     <div className='recent-blog3'>
-                        <p>We don't mind sharing the secret.
-                      <br/>  Read our blogs and stay updated
-                      <br/>  about the latest trends of the
-                       <br/> digital world.</p>
+                        <p>
+                        We don't mind sharing the secret.
+                        Read our blogs and stay updated
+                        about the latest trends of the
+                        digital world.</p>
                     </div>
                     {/* </div> */}
                 </div>

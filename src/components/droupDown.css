@@ -1,8 +1,9 @@
 
 .droup-main1{
     height:50vh;
-    width: 150%;
-    margin-top:34%;
+    width: 100%;
+    /* margin-top:34%; */
+    position: absolute;
     border-top: 4px solid #fdfd06 ;
     display: flex;
     background-color: white;

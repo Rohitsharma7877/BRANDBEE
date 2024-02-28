@@ -28,14 +28,18 @@ const Service = () => {
   return (
     <div className='main'>
       <div className='main-grid'>
+      {/* <div></div>
+      <div></div> */}
         <div className='box-serv'>
-            <div > <p>Services</p></div>
+            <div className='box-serv-pargh'> 
+              <p>Services</p>
+            </div>
 
             <div
                     ref={containerRef}
                     style={{
                       whiteSpace: 'pre-line',
-                      height: '195px',
+                      height: '105px',
                       display: 'block',
                       opacity: 0, 
                       transform: 'translateY(40px)', 

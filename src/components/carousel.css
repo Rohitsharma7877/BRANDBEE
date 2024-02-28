@@ -1,26 +1,27 @@
 
 
 .coursel-main{
-    height: 130vh;
+    height: auto;
     width: 100%;
-       display: flex;
+    display: flex;
     justify-content: center;
-      align-items: center;
+    align-items: center;
+    /* border: 2px solid rgb(250, 5, 5); */
 }
 
 .coursel-main1{
   height: auto;
   width: 100%;
   padding-top: 5vh;
-   font-size: 8vh;
-    font-weight: bold;
+  font-size: 7.5vh;
+  font-weight: bold;
+  /* border: 2px solid black; */
 
 }
 .coursel-tag{
-  font-size: 22px;
- 
+  font-size: 18px;
   padding-bottom: 5vh;
-  border: 2px solid black;
+  /* border: 2px solid rgb(6, 230, 17); */
   border-radius: 25px;
   background: rgb(236, 234, 234);
   height: 10px;
@@ -30,7 +31,7 @@
 
 .slick-prev,
 .slick-next {
-  font-size: 40px;
+  font-size: 30px;
   color: #1a1818;
   background-color: rgb(187, 182, 182);
 }

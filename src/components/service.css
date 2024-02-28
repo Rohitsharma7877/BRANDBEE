@@ -1,62 +1,85 @@
 
 
 .main {
-    height: 120vh;
+    height: auto;
     width: 100%;
     /* border: 1px solid black; */
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    padding-top: 1.5%;
+    /* margin-top: 6%; */
+    top: 0;
 }
 
 .main-grid {
-    height: 110vh;
+    top: 0;
+    height: 120vh;
     width: 90%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 20px;
+    /* gap: 20px; */
     justify-content: center;
     align-items: center;
     /* border: 1px solid rgb(202, 11, 11); */
+    box-sizing: border-box;
+    margin: 4% auto;
+    /* margin-bottom: 50vh; */
 }
 
 .box-serv{
+    top: 0;
     /* border: 1px solid blue; */
     /* background-color: rgb(236, 215, 215); */
-    height: 60%;
+    height: 25vh;
     width: 100%;
+    
+}
+.box-serv-pargh{
+    top: 0;
+    /* border: 1px solid rgb(202, 8, 128); */
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    color: rgb(153, 151, 151);
 }
 
-.box-serv div p {
-    font-size: 30px;
+/* .box-serv div p {
+    font-size: 25px;
     text-align: left;
-    /* margin-top: 10px; */
+    font-weight: bold;
+    margin-top: 10px;
     text-decoration: solid;
-    /* font-weight: 90px; */
-}
+    font-weight: 90px;
+} */
 
 .box-serv div h1 {
-    height: 100%;
+    height: 15vh;
     width: 100%;
-    font-size: 50px;
-    margin-top: 25px;
+    font-size: 40px;
+    /* border: 1px solid rgb(255, 0, 0); */
+    /* margin-top: 25px; */
     font-weight: bold; /* Set font weight to bold */
     /* padding-top: 30px; */
     text-align: left;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
 }
 .box-trd{
     /* border: 1px solid blue; */
     /* background-color: rgb(236, 215, 215); */
-    height: 60%;
+    height: 20vh;
     width: 100%;
 }
 
 .box-trd p{
-    font-size: 25px;
+    font-size: 23px;
     text-align: right;
     /* margin-top: 10px; */
     text-decoration: solid;
+    font-weight: 500;
     /* font-weight: 90px; */
 }
 
@@ -66,7 +89,7 @@
     /* border: 1px solid blue; */
     margin-bottom: 95px;
     background-color: #f1e820;
-    height: 100%;
+    height: 90%;
     width: 103%;
     display: flex;
     flex-direction: column;
@@ -97,7 +120,7 @@
     -webkit-text-stroke-color: #000;
     text-transform: uppercase;
     text-align: left;
-    font-size: 85px;
+    /* font-size: 85px; */
     font-weight: 900;
     text-decoration: solid;
     text-align: left;
@@ -113,7 +136,7 @@
 
 .box-brd div p {
     
-    font-size: 18px; /* Increase the font size as needed */
+    font-size: 16px; /* Increase the font size as needed */
     font-weight: bold; /* Make the text bold */
     text-align: left;
     width: 100%;
@@ -127,7 +150,7 @@
 .box-digt {
     margin-bottom: 95px;
     background-color: #f1e820;
-    height: 100%;
+    height: 90%;
     width: 100%;
     display: flex;
     /* border-width: 0 8px;  */
@@ -157,7 +180,7 @@
     -webkit-text-stroke-color: #000;
     text-transform: uppercase;
     text-align: left;
-    font-size: 85px;
+    /* font-size: 85px; */
     font-weight: 900;
     text-decoration: solid;
     text-align: left;
@@ -173,7 +196,7 @@
 
 .box-digt div p {
     
-    font-size: 18px; /* Increase the font size as needed */
+    font-size: 16px; /* Increase the font size as needed */
     font-weight: bold; /* Make the text bold */
     text-align: left;
     width: 100%;
@@ -202,35 +225,12 @@
 }
 
 
-  
-  /* Additional styling if needed */
-  
-
-/* Reset styles for .box-bor when .box-bor2 is hovered */
-/* .box-brd .box-bor:hover {
-    background-color: initial;
-    color: initial;
-} */
-
-/* .box-brd .box-bor:hover .brnd h1::before {
-    content: "";
-} */
-
-
-/* Responsive styles for screens smaller than 769px (adjust as needed) */
-
-
-
 @media screen and (max-width: 768px) {
     .main-grid {
         grid-template-columns: 1fr; /* Single column for mobile */
         grid-template-rows: auto; /* Auto rows for mobile */
     }
 }
-/* .box-serv{
-    width: 50%;
-    border: 1px solid rgb(202, 11, 11);
-    height: 30vh;
-} */
+
 
 

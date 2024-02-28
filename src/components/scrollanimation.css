@@ -12,8 +12,9 @@
   /* Apply this class to the container */
   .scroll-animation {
     white-space: pre-line;
-    height: 195px;
+    /* height: 195px; */
     display: block;
+    /* border: 1px solid red; */
     opacity: 0; /* Initially set opacity to 0 */
     transform: translateY(20px); /* Initial translateY for the fade-in effect */
     animation: none; /* Initial animation state */
