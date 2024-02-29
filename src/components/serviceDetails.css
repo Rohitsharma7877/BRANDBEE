@@ -58,43 +58,46 @@
     justify-content: center;
     align-items: center;
     margin-left: 50vh;
+    /* border: 1px solid red; */
 }
 
 .serviceDetails-banner-btn2 {
     /* border: 1px solid red; */
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     border-radius: 50%;
-    height: 220px;
-    width: 220px;
+    height: 180px;
+    width: 180px;
     background: #f1e820;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
+    /* gap: 5%;  */
     align-items: center; 
     color: rgb(7, 7, 7);
     transition: transform 0.2s ease;
 }
 
 .serviceDetails-banner-btn2 h1 {
-    margin: 0; /* Remove default margin */
+    margin: 0; 
 }
 
 .serviceDetails-banner-btn2 span {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 1px; /* Adjust the gap between h1 and icon */
-    font-weight: bold; /* Make the icon bold */
-    padding-right: 25px; /* Add padding to the left of the icon */
+    /* gap: 5%;  */
+    /* margin-left: 1px;  */
+    font-weight: bold; 
+    padding-right: 20px; 
 }
 
 .serviceDetails-banner-btn2 span svg {
-    font-size: 24px; /* Adjust the size of the icon */
+    font-size: 20px; 
 }
 
 .serviceDetails-banner-btn2:hover {
-    transform: translateX(-5px); /* Move the button 5px to the left on hover */
-    animation: vibrate 0.3s ease infinite; /* Apply vibrating animation */
+    transform: translateX(-5px);
+    animation: vibrate 0.3s ease infinite; 
 }
 
 @keyframes vibrate {

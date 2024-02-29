@@ -23,24 +23,25 @@
 }
 .counter-box{
     width: 100%;
-    height: auto;
+    height: 45vh;
     /* border: 1px solid black; */
     background: #fff;
     padding: 20px 0;
     border-radius: 5px;
-    /* box-shadow: 0 0 20px -4px #66676c; */
+    box-shadow: 0 0 20px -4px #e0e0e0;
 }
 
 .counter-box h2, .counter-box span{
     display: inline-block;
     margin: 15px 0;
-    font-size: 110px;
+    font-size: 90px;
     /* font-weight: bold; */
     color: #000;
 }
 
 .counter-box h4{
-    font-size: 23px;
+    font-size: 15px;
+    font-weight: 500;
     /* text-align: left; */
     line-height: 1.4;
     /* border: 1px solid black; */

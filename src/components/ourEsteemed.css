@@ -6,13 +6,13 @@
 }
 
 .esteemed-main2{
-    height: 830vh;
+    height: 920vh;
     width: 88%;
     /* border: 1px solid rgb(5, 5, 5); */
     margin: 5% 2% 0 9%;
 }
 .esteemed-box1{
-    height: 10vh;
+    height: auto;
     width: 100%;
     /* border: 1px solid rgb(5, 5, 5); */
     display: flex;
@@ -34,7 +34,7 @@
     align-items: center;
 }
 .esteemed-flex1{
-    height: 170vh;
+    height: 75vh;
     width: 30%;
     /* border: 1px solid rgb(240, 4, 4); */
 }
@@ -47,17 +47,18 @@
     font-weight: 500;
     line-height: 2;
     overflow-y: scroll;
-    scrollbar-width: thin;
-    scrollbar-color: yellow rgb(243, 243, 243);
+    scrollbar-width:thin;
+    scrollbar-color: yellow #faf9f9;
 }
 
 .esteemed-list::-webkit-scrollbar {
-    width: 6px;
+    width: 1px;
 }
 
 .esteemed-list::-webkit-scrollbar-thumb {
     background-color: yellow;
-    border-radius: 10%; /* 10% border radius */
+    width: 1px;
+    border-radius: 10%; 
 }
 
 .esteemed-list::-webkit-scrollbar-track {
@@ -86,7 +87,7 @@
 
 /* Grid itme */
 .estm-flex2{
-    height: 170vh;
+    height: 75vh;
     width: 100%;
     /* border: 1px solid rgb(4, 240, 4); */
 }
@@ -104,12 +105,17 @@
     position: relative;
     overflow: hidden;
     /* border: 1px solid red; */
-    height: auto;
-    width: 90%;
-    margin: 6%;
+    height: 15vh;
+    width: 75%;
+    margin: 10%;
   }
     
   .estm-view-grid-item img {
+    height: 100%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     object-fit: cover;
     transition: transform 0.3s ease-in-out;
   }
