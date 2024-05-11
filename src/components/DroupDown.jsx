@@ -3,12 +3,16 @@ import "./droupDown.css";
 import { GoArrowRight } from "react-icons/go";
 import { RxDotFilled } from "react-icons/rx";
 import { useNavigate } from "react-router-dom";
+import Navbar from "./navbar/Navbar";
+import App from '../App'
 
 const DroupDown = () => {
   const navigate = useNavigate();
   const [removeHover, setRemoveHover] = useState(false);
 
   const handlechange = (id) => {
+    <App value={false} />
+    
     if (id === "brandsolution" || id === "digitalMarket") {
       console.log(id);
       navigate(`/${id}`);

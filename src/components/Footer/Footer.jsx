@@ -156,9 +156,9 @@ const Footer = () => {
                       <div className="footer-mainC3A1-right">
                         {/* <hr /> */}
                         <p>
-                        Copyright © 2012-2023.
-                        Brand Bee Management Pvt. Ltd.
-                        all rights reserved
+                        Copyright © 2023-2024.
+                       <br/> Rohit Sharma,
+                        all rights  <br/> reserved.
                         </p>
                       </div>
                     </div>

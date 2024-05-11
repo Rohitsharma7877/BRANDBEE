@@ -55,7 +55,8 @@ const BrandIdentity = () => {
                             <br/>your brand.</p>
                         </div>
                     </div>
-                    <hr/>
+                    <hr style={{ color: "yellow" }} />
+
                     <div className='BrandStrategy-main-write2'>
                         <div className='BrandStrategy-main-dot'>
                         <div className='BrandStrategy-main-dot1' >

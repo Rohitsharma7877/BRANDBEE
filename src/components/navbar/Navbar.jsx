@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./navbar.css";
 import DrawerComponent from "../DrawerComponent";
 import DroupDown from "../DroupDown";
@@ -7,7 +7,15 @@ import { Button, Menu, MenuButton, MenuItem, MenuList } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
 // import { ChevronDownIcon } from '@chakra-ui/icons';
 
-const Navbar = () => {
+const Navbar = ({value}) => {
+  console.log("valueee", value);
+  
+  // useEffect(() => {
+  //   console.log("valueee", value);
+  // }, [value]);
+
+
+
   const [isDropdownOpen, setDropdownOpen] = useState(false);
   const [isDropdownImageOpen, setDropdownImageOpen] = useState(false);
 
@@ -160,9 +168,9 @@ const Navbar = () => {
               </Menu>
             </li>
 
-            <li
-              // onMouseEnter={() => setDropdownImageOpen(true)}
-              // onMouseLeave={() => setDropdownImageOpen(false)}
+            <li 
+            
+            // onClick={() => isDropdownImageOpen?setDropdownImageOpen(false):setDropdownImageOpen(true)}
             >
               <Menu>
                 <MenuButton
@@ -223,6 +231,7 @@ const Navbar = () => {
         </div>
       </div>
       <div style={{ display: isDropdownOpen ? 'block' : 'none' }}> {<DroupDown />}</div>
+      {/* <div style={{ display: isDropdownImageOpen ? 'block' : 'none' }}> {<DroupDownImage />}</div> */}
     </>
   );
 };

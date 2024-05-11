@@ -3,19 +3,26 @@
     height: auto;
     width: 100%;
     /* border: 1px solid red; */
-    margin-top: 6%;
+    /* margin-top: 6%; */
     /* margin: 3%; */
+
+    padding-top: 1.5%;
+    margin-top: 6.3%;
 
 }
 
 .brandsolution-main2{
     height: auto;
-    width: 90%;
+    width: 95%;
     /* border: 1px solid rgb(10, 10, 10); */
-    margin: 7%; 
+    /* margin: 7%;  */
     display: flex;
     justify-content: center;
     align-items: center;
+
+    padding: 2% 4% 8% 6%;
+    box-sizing: border-box;
+    margin: 1% auto;
 }
 
 .brandsolution-box1{

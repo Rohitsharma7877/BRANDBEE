@@ -2,8 +2,8 @@
 .droup-main1{
     height:50vh;
     width: 100%;
-    /* margin-top:34%; */
-    position: absolute;
+    /* margin-top:-1.5%; */
+    position: fixed;
     border-top: 4px solid #fdfd06 ;
     display: flex;
     background-color: white;
@@ -16,19 +16,26 @@
     transition: opacity 0.3s ease-in-out, pointer-events 0.3s ease-in-out;
     
     /* position: absolute; */
+
+    /* padding-top: 1%; */
+    /* margin-top: 0.2%; */
  
 }
 
 
 
 .droup-main2{
-    height: auto;
+    height: 45vh;
     width: 150%;
     /* border: 1px solid rgb(219, 8, 8); */
     /* margin-top: 90px; */
     display: flex;
     justify-content: center;
     align-items: center;
+
+    padding: 3% 4% 3% 4%;
+    box-sizing: border-box;
+    /* margin: 1% auto; */
 }
 
 .droup-box1{
